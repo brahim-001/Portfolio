@@ -368,7 +368,7 @@ img {
 
 .banner-area{
   
-    background-image: url(../images/home/me.jpg); 
+    /* background-image: url(../images/home/me.jpg);  */
     background-position: center;
     background-size:cover;
     position: relative;

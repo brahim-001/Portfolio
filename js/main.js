@@ -76,9 +76,53 @@ $(document).ready(function () {
 	$("#services-carousel").owlCarousel({
 		navigation: false,
 		pagination: true,
-		slideSpeed: 800,
-		paginationSpeed: 800,
-		smartSpeed: 500,
+		slideSpeed: 200,
+		paginationSpeed: 200,
+		smartSpeed: 400,
+		autoplay: true,
+		singleItem: true,
+		loop: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			680:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+	$("#services-carousele").owlCarousel({
+		navigation: false,
+		pagination: true,
+		slideSpeed: 200,
+		paginationSpeed: 200,
+		smartSpeed: 400,
+		autoplay: true,
+		singleItem: true,
+		loop: true,
+		responsive:{
+			0:{
+				items:1
+			},
+			680:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
+
+
+	$("#services-carouselee").owlCarousel({
+		navigation: false,
+		pagination: true,
+		slideSpeed: 200,
+		paginationSpeed: 200,
+		smartSpeed: 400,
 		autoplay: true,
 		singleItem: true,
 		loop: true,
@@ -100,7 +144,7 @@ $(document).ready(function () {
 
 	$('.counter').counterUp({
 		delay: 50,
-		time: 8000
+		time: 1000
 	});
 
 	//*****Magnific Pop up js

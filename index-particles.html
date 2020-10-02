@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Parisienne&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+    <script scr="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js
+    "></script>
 
     <meta name="author" content="MouriTheme" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -143,6 +147,48 @@
 
     <!--Responsive css-->
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <style>
+      .content{
+        text-align: center;
+      }
+          .mfp-hide{
+             display: none !important;
+          }
+          .button{
+            padding: 20px 40px;
+            border-color: white;
+            font-size: 17px;
+            font-size: 1.7rem;
+            font-family: tahoma;
+            font-weight: 40px;
+            margin-top: 40px;
+            display: inline-block;
+
+          }
+          .button{
+            border: 2px solid white;
+            color: black;
+            text-transform: uppercase;
+            transition: all 0.5s ease-in-out;
+            border-radius: 50px;
+            background:  gainsboro;
+            font-weight: bold;
+          }
+          .button .fa{
+            margin-left: 20px;
+          }
+
+          .button:hover, .button:focus{
+             text-decoration: none;
+             font-weight: bold;
+             outline: none;
+          }
+          iframe{
+            margin-left: 80px;
+          }
+
+    </style>
   </head>
   <body>
     <!--preloader starts-->
@@ -684,7 +730,7 @@
 
 
             <!-- Blog  -->
-            <div class="col-md-8 col-sm-6 col-xs-12 no-pad">
+            <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
               <div id="inline-popups-3">
                 <a href="#test-popup-3" data-effect="mfp-zoom-out">
                   <div class="hovereffect">
@@ -741,29 +787,39 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="content" >
+                  <a href="#videostory" class="button more" id="videolink">Watch video
+                  <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+                  </a>
+                  <div id="videostory" class="mfp-hide"
+                  style="max-width: 75%;margin: 0 auto;">
+                    
+                  <iframe width="853" height="480" src="https://www.youtube.com/watch?v=US8ePkxYI3E&ab_channel=Onlinewebustaad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+
+                </div>
+
+
+
+
+
               </div>
+
+
+
             </div>
            
          
 
-          <div class="col-lg-3 col-md-12" style="margin-left: 10px;">
-            <div class="story-video bg-img cover-background" 
-            data-overlay-dark="0" data-background="./images/portfolio/blog.jpg" 
-            style="background-color: #06080a;">
-                <div class="opacity-extra-medium bg-black"></div>
-                <div class="inner-border"></div>
-                <div class="text-center center-col absolute-middle-center z-index-1" style="margin-top: 150px;"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=W4T7mSXfx_w&ab_channel=WebDeve"> <span class="video_btn margin-10px-right margin-15px-bottom">
-                  <i class="fa fa-play font-size22 sm-font-size18"></i> </span></a> </div>
-            </div>
-          </div>
-          
 
 
 
           
           
 <!-- instagram -->
-<div class="col-md-8 col-sm-6 col-xs-12 no-pad">
+<div class="col-md-12 col-sm-6 col-xs-12 no-pad">
   <div id="inline-popups-5">
     <a href="#test-popup-5" data-effect="mfp-zoom-out">
       <div class="hovereffect">
@@ -774,7 +830,7 @@
         />
         <!--edit image-->
         <div class="overlay">
-          <h2>Project Three : Clone instagram</h2>
+          <h2>Project Two : Clone instagram</h2>
           <!--your project name-->
         </div>
       </div>
@@ -822,16 +878,7 @@
 
 
       
-<div class="col-lg-3 col-md-12" style="margin-left: 10px;">
-  <div class="story-video bg-img cover-background" 
-  data-overlay-dark="0" data-background="./images/portfolio/instagram.jpg" 
-  style="background-color: #06080a;;">
-      <div class="opacity-extra-medium bg-black"></div>
-      <div class="inner-border"></div>
-      <div class="text-center center-col absolute-middle-center z-index-1" style="margin-top: 150px;"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=CUywcer3qJ0&ab_channel=WebDeve"> <span class="video_btn margin-10px-right margin-15px-bottom">
-        <i class="fa fa-play font-size22 sm-font-size18"></i> </span></a> </div>
-  </div>
-</div>
+
 
          
 
@@ -842,7 +889,7 @@
 
 <!-- ecommerce -->
 
-          <div class="col-md-8 col-sm-6 col-xs-12 no-pad">
+          <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
             <div id="inline-popups-4">
               <a href="#test-popup-4" data-effect="mfp-zoom-out">
                 <div class="hovereffect">
@@ -853,7 +900,7 @@
                   />
                   <!--edit image-->
                   <div class="overlay">
-                    <h2>Project Two : E-commerce</h2>
+                    <h2>Project Three : E-commerce</h2>
                     <!--your project name-->
                   </div>
                 </div>
@@ -900,21 +947,12 @@
           </div>
 
             
-          <div class="col-lg-3 col-md-12" style="margin-left: 10px;">
-            <div class="story-video bg-img cover-background" 
-            data-overlay-dark="0" data-background="./images/portfolio/eco.jpg" 
-            style="background-color: #06080a;">
-                <div class="opacity-extra-medium bg-black"></div>
-                <div class="inner-border"></div>
-                <div class="text-center center-col absolute-middle-center z-index-1" style="margin-top: 150px;"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=1oEV5zzo3Ow&ab_channel=WebDeve"> <span class="video_btn margin-10px-right margin-15px-bottom">
-                  <i class="fa fa-play font-size22 sm-font-size18"></i> </span></a> </div>
-            </div>
-        </div>
+        
 
         <!-- twiter -->
          
 
-        <div class="col-md-8 col-sm-6 col-xs-12 no-pad">
+        <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
           <div id="inline-popups-4">
             <a href="#test-popup-4" data-effect="mfp-zoom-out">
               <div class="hovereffect">
@@ -925,7 +963,7 @@
                 />
                 <!--edit image-->
                 <div class="overlay">
-                  <h2>Project Two : E-commerce</h2>
+                  <h2>Project Three : Twitter Feed </h2>
                   <!--your project name-->
                 </div>
               </div>
@@ -936,7 +974,7 @@
               <div class="col-md-7">
                 <div class="por-img">
                   <img
-                    src="images/portfolio/twitter.png.jpg"
+                    src="images/portfolio/twitter.png"
                     alt="portfolio image"
                     class="img-responsive"
                   />
@@ -956,7 +994,7 @@
                         <p>Tech/back:</p>
                       </div>
                       <div class="col-xs-offset-1 col-xs-7">
-                        <p>15/04/2020</p>
+                        <p>06/05/2020</p>
                         <!--edit here-->
                         <p>Html-css-js-Bootst</p>
                         <!--edit here-->
@@ -972,19 +1010,9 @@
         </div>
 
           
-        <div class="col-lg-3 col-md-12" style="margin-left: 10px;">
-          <div class="story-video bg-img cover-background" 
-          data-overlay-dark="0" data-background="./images/portfolio/twitter.png" 
-          style="background-color: #06080a;">
-              <div class="opacity-extra-medium bg-black"></div>
-              <div class="inner-border"></div>
-              <div class="text-center center-col absolute-middle-center z-index-1" style="margin-top: 150px;"> <a class="popup-youtube" href="https://www.youtube.com/embed/d3yoEqXHu8I"> <span class="video_btn margin-10px-right margin-15px-bottom">
-                <i class="fa fa-play font-size22 sm-font-size18"></i> </span></a> </div>
-          </div>
-      </div>
-
+      
         <!--hotel  -->
-            <div class="col-md-8 col-sm-6 col-xs-12 no-pad">
+            <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
               <div id="inline-popups-6">
                 <a href="#test-popup-6" data-effect="mfp-zoom-out">
                   <div class="hovereffect">
@@ -1045,17 +1073,7 @@
             </div>
 
 
-            
-          <div class="col-lg-3 col-md-12  col-sm-6 col-xs-12" style="margin-left: 10px;">
-            <div class="story-video bg-img cover-background" 
-            data-overlay-dark="0" data-background="./images/portfolio/hotel.jpg" 
-            style="background-color: #06080a; height: 100%;">
-                <div class="opacity-extra-medium bg-black"></div>
-                <div class="inner-border"></div>
-                <div class="text-center center-col absolute-middle-center z-index-1" style="margin-top: 150px;"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=54B5lkOL1mk&ab_channel=WebDeve"> <span class="video_btn margin-10px-right margin-15px-bottom">
-                  <i class="fa fa-play font-size22 sm-font-size18"></i> </span></a> </div>
-            </div>
-        </div>
+       
 
 
 
@@ -1344,7 +1362,13 @@
     <!--Main js-->
     <script src="js/main.js"></script>
 
-    <script></script>
+    <script>
+    $('#videolink').magnificPopup({
+      type:'inline',
+      midClick:true
+    })
+        
+    </script>
   </body>
 
   <!-- Mirrored from mourithemes.com/mason/mason/index-particles.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Sep 2020 12:58:32 GMT -->

@@ -18,20 +18,17 @@
     <script scr="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js
     "></script>
 
+
+
+
+   <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- Magnific Popup core JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
     <meta name="author" content="MouriTheme" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- <link rel="stylesheet" href="assets/css/plugins.css" />
-    <link href="assets/css/switcher.css" rel="stylesheet">
-    <link href="assets/css/styles-2.css" rel="stylesheet" id="colors">
-    <link rel="stylesheet" href="assets/css/mycss.css">
-    <link href="assets/css/mystyle-1.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/typed.html">
-    <link rel="stylesheet" href="assets/css/styleGallery.css">
-    <link href="../../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Parisienne&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet"> -->
-
     <!--template title-->
     <title>DOUCH - Personal Portfolio</title>
 
@@ -148,6 +145,15 @@
     <!--Responsive css-->
     <link rel="stylesheet" href="css/responsive.css" />
 
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
     <style>
       .content{
         text-align: center;
@@ -184,12 +190,34 @@
              font-weight: bold;
              outline: none;
           }
-          iframe{
-            margin-left: 80px;
-          }
 
-    </style>
+      
+  .modal-dialog {
+      max-width: 1000px;
+      margin: 30px auto;
+  }
+  
+  .modal-body {
+      position: relative;
+      padding: 0px;
+  }
+  
+  .close {
+      position: absolute;
+      right: -30px;
+      top: 0;
+      z-index: 999;
+      font-size: 2rem;
+      font-weight: normal;
+      color: #fff;
+      opacity: 1;
+  }
+</style> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
+
+
+  
   <body>
     <!--preloader starts-->
 
@@ -328,8 +356,9 @@
                   <div class="about-right">
                     <h2>Full Stack Web Developer</h2>
                     <!--edit name-->
-                    <p>I am <span>Brahim DOUCH</span>. I am a simple , creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
-                      <p>I have knowledge in html, css, Javascript , JQuery, ReactJS, php and Laravel.
+                    <p style="font-family: Comic Sans MS;">I am <span>Brahim DOUCH</span>. I am a simple , creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
+                      <p style="font-family: Comic Sans MS;">
+                        I have knowledge in html, css, Javascript , JQuery, ReactJS, php and Laravel.
                         <br />
                       This portfolio is a demo of somes projects I've achieve during
                        my whole professional training. I had to learn new coding
@@ -340,7 +369,14 @@
   
   
   
-                     <button> <a  href="images/about/cv.pdf" class="down-btn btn-a" download="">download cv</a></button>
+
+                     <a href="images/about/cv.pdf" class="animated-button1">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Download CV
+                    </a>
   
                   </div>
               </div>
@@ -591,124 +627,8 @@
     
     <!--Services Area Starts-->
 
-    <!-- <div id="services" class="services-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                        <p class="line-one"></p>
-                        <h2>What I Offer</h2>
-                        <p class="line-one"></p>
 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div id="services-carousel" class="owl-carousel owl-theme">
-
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fa fa-joomla"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>Branding</h3> 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-
-                    </div>
-
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fa fa-slack"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>Web Design</h3> 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-
-                    </div>
-
-
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fa fa-yelp"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>Photography</h3> 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-
-                    </div>
-
-
-                
-
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fa fa-google-wallet"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>Art Work</h3> 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                    </div>
-
-
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fa fa-renren"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>App Development</h3> 
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
-
-    <!--Services Area Ends-->
-
-    <!--number area starts-->
-
-    <!-- <div class="number-area section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-						<i class="fa fa-clock-o"></i>
-						<h2 class="counter">3015</h2> 
-						<p>Hours Worked</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-						<i class="fa fa-code"></i>
-						<h2 class="counter">6589</h2> 
-						<p>Lines of Code</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-						<i class="fa fa-user"></i>
-						<h2 class="counter">723</h2> 
-						<p>Happy Customers</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-						<i class="fa fa-trophy"></i>
-						<h2 class="counter">43</h2> 
-						<p>Awards Won</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
+    
     <!--number area ends-->
 
     <!--Portfolio Area Starts-->
@@ -789,16 +709,26 @@
                 </div>
 
                 <div class="content" >
-                  <a href="#videostory" class="button more" id="videolink">Watch video
+
+
+                  <a href="#" class="popup-youtube button more" id="videolink" data-target="#modalYT6" data-toggle="modal">Watch video
                   <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
                   </a>
-                  <div id="videostory" class="mfp-hide"
-                  style="max-width: 75%;margin: 0 auto;">
-                    
-                  <iframe width="853" height="480" src="https://www.youtube.com/watch?v=US8ePkxYI3E&ab_channel=Onlinewebustaad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+                  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalYT6" role="dialog" tabindex="-1">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body mb-0 p-0">
+                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                    <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/W4T7mSXfx_w"></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                               
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
                 </div>
 
 
@@ -873,6 +803,29 @@
         </div>
       </div>
     </div>
+
+    <div class="content" >
+
+
+      <a href="#" class="popup-youtube button more" id="videolink" data-target="#modalYT6" data-toggle="modal">Watch video
+      <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+      </a>
+
+      <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalYT6" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/CUywcer3qJ0"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
   </div>
 </div>
 
@@ -943,134 +896,211 @@
                   </div>
                 </div>
               </div>
+
+              <div class="content" >
+
+
+                <a href="#" class="popup-youtube button more" id="videolink" data-target="#modalYT6" data-toggle="modal">Watch video
+                <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+                </a>
+          
+                <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalYT6" role="dialog" tabindex="-1">
+                  <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                          <div class="modal-body mb-0 p-0">
+                              <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                  <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/1oEV5zzo3Ow"></iframe>
+                              </div>
+                          </div>
+                          <div class="modal-footer">
+                             
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
             </div>
           </div>
 
             
         
 
-        <!-- twiter -->
+<!-- twiter API-->
          
+<div class="col-md-12 col-sm-6 col-xs-12 no-pad">
+  <div id="inline-popups-6">
+    <a href="#test-popup-6" data-effect="mfp-zoom-out">
+      <div class="hovereffect">
+        <img
+          src="images/portfolio/twitter.png"
+          alt="portfolio image"
+          class="img-responsive"
+        />
+        <!--edit image-->
+        <div class="overlay">
+          <h2>Project Four : Twitter feed</h2>
+          <!--your project name-->
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="por-img">
+          <img
+            src="images/portfolio/twitter.png"
+            alt="portfolio image"
+            class="img-responsive"
+          />
+          <!--edit image-->
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="por-text">
+          <h2>Twitter feed</h2>
+          <!--your project title-->
 
-        <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
-          <div id="inline-popups-4">
-            <a href="#test-popup-4" data-effect="mfp-zoom-out">
-              <div class="hovereffect">
-                <img
-                  src="images/portfolio/twitter.png"
-                  alt="portfolio image"
-                  class="img-responsive"
-                />
-                <!--edit image-->
-                <div class="overlay">
-                  <h2>Project Three : Twitter Feed </h2>
-                  <!--your project name-->
-                </div>
-              </div>
-            </a>
-          </div>
-          <div id="test-popup-4" class="white-popup mfp-with-anim mfp-hide">
+          <div class="por-text-details">
             <div class="row">
-              <div class="col-md-7">
-                <div class="por-img">
-                  <img
-                    src="images/portfolio/twitter.png"
-                    alt="portfolio image"
-                    class="img-responsive"
-                  />
-                  <!--edit image-->
-                </div>
+              <div class="col-xs-4">
+                <p>Completed:</p>
+                <p>Tech/front:</p>
+                <p>Tech/back:</p>
+                <p>Web service:</p>
               </div>
-              <div class="col-md-5">
-                <div class="por-text">
-                  <h2>Shion House</h2>
-                  <!--your project title-->
-
-                  <div class="por-text-details">
-                    <div class="row">
-                      <div class="col-xs-4">
-                        <p>Completed:</p>
-                        <p>Tech/front:</p>
-                        <p>Tech/back:</p>
-                      </div>
-                      <div class="col-xs-offset-1 col-xs-7">
-                        <p>06/05/2020</p>
-                        <!--edit here-->
-                        <p>Html-css-js-Bootst</p>
-                        <!--edit here-->
-                        <p>php Laravel-sql</p>
-                        <!--edit here-->
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="col-xs-offset-1 col-xs-7">
+                <p>15/06/2020</p>
+                <!--edit here-->
+                <p>ReactJS</p>
+                <!--edit here-->
+                <p>laravel</p>
+                <!--edit here-->
+                <p>Rest API + twitter API</p>
+                <!--edit here-->
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="content" >
+
+
+      <a href="#" class="popup-youtube button more" id="videolink" data-target="#modalYT6" data-toggle="modal">Watch video
+      <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+      </a>
+
+      <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalYT6" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/d3yoEqXHu8I"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+  </div>
+</div>
+
+        
 
           
       
-        <!--hotel  -->
-            <div class="col-md-12 col-sm-6 col-xs-12 no-pad">
-              <div id="inline-popups-6">
-                <a href="#test-popup-6" data-effect="mfp-zoom-out">
-                  <div class="hovereffect">
-                    <img
-                      src="images/portfolio/hotel.jpg"
-                      alt="portfolio image"
-                      class="img-responsive"
-                    />
-                    <!--edit image-->
-                    <div class="overlay">
-                      <h2>Project Four : hotel booking web application</h2>
-                      <!--your project name-->
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div class="por-img">
-                      <img
-                        src="images/portfolio/hotel.jpg"
-                        alt="portfolio image"
-                        class="img-responsive"
-                      />
-                      <!--edit image-->
-                    </div>
-                  </div>
-                  <div class="col-md-5">
-                    <div class="por-text">
-                      <h2>Hotel booking web application</h2>
-                      <!--your project title-->
+<!--hotel  Booking-->
+<div class="col-md-12 col-sm-6 col-xs-12 no-pad">
+  <div id="inline-popups-6">
+    <a href="#test-popup-6" data-effect="mfp-zoom-out">
+      <div class="hovereffect">
+        <img
+          src="images/portfolio/hotel.jpg"
+          alt="portfolio image"
+          class="img-responsive"
+        />
+        <!--edit image-->
+        <div class="overlay">
+          <h2>Project Five : hotel booking web application</h2>
+          <!--your project name-->
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="test-popup-6" class="white-popup mfp-with-anim mfp-hide">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="por-img">
+          <img
+            src="images/portfolio/hotel.jpg"
+            alt="portfolio image"
+            class="img-responsive"
+          />
+          <!--edit image-->
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="por-text">
+          <h2>Hotel booking web application</h2>
+          <!--your project title-->
 
-                      <div class="por-text-details">
-                        <div class="row">
-                          <div class="col-xs-4">
-                            <p>Completed:</p>
-                            <p>Tech/front:</p>
-                            <p>Tech/back:</p>
-                            <p>Web service:</p>
-                          </div>
-                          <div class="col-xs-offset-1 col-xs-7">
-                            <p>15/07/2020</p>
-                            <!--edit here-->
-                            <p>ReactJS</p>
-                            <!--edit here-->
-                            <p>php laravel-sql</p>
-                            <!--edit here-->
-                            <p>Rest API</p>
-                            <!--edit here-->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="por-text-details">
+            <div class="row">
+              <div class="col-xs-4">
+                <p>Completed:</p>
+                <p>Tech/front:</p>
+                <p>Tech/back:</p>
+                <p>Web service:</p>
+              </div>
+              <div class="col-xs-offset-1 col-xs-7">
+                <p>15/07/2020</p>
+                <!--edit here-->
+                <p>ReactJS</p>
+                <!--edit here-->
+                <p>php laravel-sql</p>
+                <!--edit here-->
+                <p>Rest API</p>
+                <!--edit here-->
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content" >
+
+
+      <a href="#" class="popup-youtube button more" id="videolink" data-target="#modalYT6" data-toggle="modal">Watch video
+      <i class="fa fa-play-circle" aria-hidden="true">&nbsp;</i>
+      </a>
+
+      <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modalYT6" role="dialog" tabindex="-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                        <iframe allowfullscreen class="embed-responsive-item" src="https://www.youtube.com/embed/54B5lkOL1mk"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+  </div>
+</div>
 
 
        
@@ -1087,53 +1117,7 @@
 
     <!--Portfolio Area Ends-->
 
-    <!--Testimonial Section Starts-->
-
-    <!-- <div id="testimonial" class="testimonial-area section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-              <p class="line-one"></p>
-              <h2>What colleagues Say</h2>
-              <p class="line-one"></p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="review-area">
-              <div id="testimonial-carousel" class="owl-carousel owl-theme">
-                <div class="single-testi text-center item">
-                  <div class="testi-img">
-                    <img
-                      src="images/testimonial/lahcen.jpg"
-                      alt="testimonial image"
-                    />
-                  </div>
-                  <div class="block-quote">
-                    <p>
-                      My Experience training with Brahim has been very positive.
-                      I highly recommend this guy to everyone because I think he
-                      is one a of kind.
-                    </p>
-                    <h2>Lahcen Elhanchir</h2>
-                    <h3>
-                      <a href="http://lahcen-elhanchir.com/"
-                        >lahcen-elhanchir.com</a
-                      >
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!--Testimonial Section Ends-->
-
+  
     <!--contact area starts-->
 
     <div class="contact-area section-padding" id="contact">
@@ -1277,36 +1261,6 @@
 
     <!--contact area ends-->
 
-    <!--Brand area starts-->
-
-    <!-- <div class="brand-area section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-xs-6 col-sm-3">
-            <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-              <img src="images/brand/brand-1.png" alt="brand image" />
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6 col-sm-3">
-            <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-              <img src="images/brand/brand-2.png" alt="brand image" />
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6 col-sm-3">
-            <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-              <img src="images/brand/brand-3.png" alt="brand image" />
-            </div>
-          </div>
-          <div class="col-md-3 col-xs-6 col-sm-3">
-            <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-              <img src="images/brand/brand-4.png" alt="brand image" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!--Brand area ends-->
 
     <!--Footer Area Starts-->
 
@@ -1363,13 +1317,34 @@
     <script src="js/main.js"></script>
 
     <script>
-    $('#videolink').magnificPopup({
-      type:'inline',
-      midClick:true
-    })
+          $(document).ready(function() {
+	           // Gets the video src from the data-src on each button
+
+            var $videoSrc;
+            $('.video-btn').click(function() {
+                $videoSrc = $(this).data("src");
+            });
+            console.log($videoSrc);
+
+
+
+            // when the modal is opened autoplay it  
+            $('#myModal').on('shown.bs.modal', function(e) {
+
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+            })
+
+
+
+            // stop playing the youtube video when I close the modal
+            $('#myModal').on('hide.bs.modal', function(e) {
+                // a poor man's stop video
+                $("#video").attr('src', $videoSrc);
+            })
+        });        
+
         
     </script>
   </body>
-
-  <!-- Mirrored from mourithemes.com/mason/mason/index-particles.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Sep 2020 12:58:32 GMT -->
 </html>
